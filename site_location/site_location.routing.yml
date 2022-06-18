@@ -1,0 +1,7 @@
+site_location.location_info_form:
+  path: '/admin/location-info-form'
+  defaults:
+    _form: 'Drupal\site_location\Form\LocationInfoForm'
+    _title: 'Location Info'
+  requirements:
+    _permission: 'administer site configuration'

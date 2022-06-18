@@ -1,0 +1,6 @@
+site_location.location_info_form:
+  title: 'Location Info'
+  description: 'Location Info'
+  route_name: site_location.location_info_form
+  parent: system.admin
+  weight: 0

@@ -1,0 +1,4 @@
+services:
+  site_location.timeservice:
+    class: 'Drupal\site_location\Services\GetDateAndTimeService'
+    arguments: ['@config.factory']
